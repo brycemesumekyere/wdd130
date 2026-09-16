@@ -40,11 +40,11 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid black; /* 1 */
+    border: 1.5px solid black; /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align:center;
 }
 
 aside img {
