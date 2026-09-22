@@ -42,17 +42,21 @@ nav, p, section, article {
     text-decoration: none;
 }
 
- .hero{
+ .hero {
     position: relative;
  }
 
- .hero img{
+ .hero img {
     width: 100%;
     display: block;
     height: auto;
  }
 
- h1 {
+ .hero {
+    position: relative;
+}
+
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -61,23 +65,21 @@ nav, p, section, article {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: #fff;
- }
+}
 
- article {
+.hero article {
     position: absolute;
     bottom: 30px;
     left: 30px;
     right: 30px;
     background-color: rgba(255,255,255,0.8);
     padding: 15px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
- }
+}
 
  .hero article img {
     width: 125px;
     height: auto;
+    float: right;
 }
 
 footer .socialmedia img {
