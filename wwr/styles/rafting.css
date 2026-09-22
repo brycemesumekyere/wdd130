@@ -82,6 +82,10 @@ nav, p, section, article {
     float: right;
 }
 
+section h2 {
+    background-color: var(--secondary-color);
+}
+
 footer .socialmedia img {
     width: 30px;
     height: 30px;
