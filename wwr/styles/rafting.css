@@ -65,10 +65,6 @@ nav, p, section, article {
     height: auto;
  }
 
- .hero {
-    position: relative;
-}
-
 .hero h1 {
     position: absolute;
     top: 20px;
