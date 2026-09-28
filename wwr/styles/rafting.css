@@ -10,6 +10,19 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
 }
 
 * {
@@ -89,4 +102,48 @@ section h2 {
 footer .socialmedia img {
     width: 30px;
     height: 30px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.history h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.adventure h2 {
+    grid-column: 1 / 6;
+    text-align: center;
+}
+
+.adventure figure {
+    text-align: center;
+}
+
+.adventure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
 }
