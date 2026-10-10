@@ -166,6 +166,12 @@ footer .socialmedia img {
     border: 1px solid #ccc;
 }
 
+.map {
+    border: 0;
+    width: 100%;
+    height: 300px;
+}
+
 .employees-section {
     margin: 20px 16px;
 }
